@@ -1,0 +1,21 @@
+<title>Cheese</title>
+
+<link rel = "stylesheet" href = "index.css">
+
+<p class = "score">Cheese: <span class = "score" id = "total">0</span></p>
+
+<p>Your current cheese production is</p><span id = "cps"> 0 </span><p>cheese per second</p> 
+
+<image src = "cheese.png" id = "cheesepic" onclick = "addtotal(1)">
+    
+<div id = "buttons">
+<div id = "knifebutton">
+<button id = "buyknife" onclick = "buyknife()">Knife<br>Cost: <span id = "knifecost">20</span><br>Owned: <span id = "knives">0</span></button>
+</div> 
+    
+    <div id = "fromagerbutton">
+       <button id = "buyfromager" onclick = "buyfromager()">Fromager<br>Cost: <span id = "fromagercost">500</span><br>Owned: <span id = "fromagers">0</span></button> 
+    </div>
+    </div>
+
+<script src = "index.js"></script>     

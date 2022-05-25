@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#cheesepic {
+    display: block;
+    margin: 0 auto;
+    top: 100px
+}
+
+.score {
+    font-size: 30px;
+    text-align: center; 
+}
+
+#buyknife {
+    font-size: 18px;
+    transition-duration: 0.4s;
+    position: relative;
+    left: 85%;
+    bottom: 175px;
+}
+
+#buyknife:hover {
+    background-color: black;
+    color: white;
+}
+
+#buyfromager {
+    font-size: 18px;
+    transition-duration: 0.4s;
+    position: relative;
+    left: 85%;
+    bottom: 150px;
+}
+
+#buyfromager:hover {
+    background-color: black;
+    color: white;
+}
+    
